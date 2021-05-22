@@ -1,0 +1,39 @@
+{
+  "name": "grommet-component-collection",
+  "version": "0.9.0",
+  "description": "Custom grommet modules for React.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack build --config webpack.prod.ts",
+    "build:dev": "webpack build --config webpack.dev.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cocon/grommet-component-collection.git"
+  },
+  "keywords": [
+    "Grommet"
+  ],
+  "author": "YUUKIToriyama <github@toriyama.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cocon/grommet-component-collection/issues"
+  },
+  "homepage": "https://github.com/Cocon/grommet-component-collection#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "@types/webpack": "^5.28.0",
+    "ts-loader": "^9.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "grommet": "^2.17.2",
+    "grommet-icons": "^4.5.0",
+    "react": "^17.0.2"
+  }
+}
