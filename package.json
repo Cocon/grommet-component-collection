@@ -2,7 +2,8 @@
   "name": "grommet-component-collection",
   "version": "0.9.0",
   "description": "Custom grommet modules for React.js",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
+  "types": "types/src/index.d.ts",
   "scripts": {
     "build": "webpack build --config webpack.prod.ts",
     "build:dev": "webpack build --config webpack.dev.ts",
