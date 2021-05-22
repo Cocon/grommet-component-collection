@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack build --config webpack.prod.ts",
     "build:dev": "webpack build --config webpack.dev.ts",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
