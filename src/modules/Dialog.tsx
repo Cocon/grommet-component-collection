@@ -9,7 +9,7 @@ import {
 } from "grommet-icons";
 
 
-export interface DialogProps {
+interface DialogProps {
 	content: React.ReactElement,
 	children: React.ReactChild,
 	onDialogOpened?: Function
@@ -44,4 +44,4 @@ const Dialog: React.FunctionComponent<DialogProps> = (props) => {
 		</Grommet>
 	)
 }
-export default Dialog;
+export { Dialog, DialogProps };
