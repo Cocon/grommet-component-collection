@@ -11,8 +11,8 @@ import {
 
 interface DialogProps {
 	content: React.ReactElement,
-	children: React.ReactElement,
-	onClicked?: Function
+	children: React.ReactChild,
+	onDialogOpened?: Function
 }
 const Dialog: React.FunctionComponent<DialogProps> = (props) => {
 	const [open, setOpen] = React.useState(false);
@@ -21,13 +21,15 @@ const Dialog: React.FunctionComponent<DialogProps> = (props) => {
 			setOpen(true);
 			resolve("");
 		}).then(() => {
-			(props.onClicked != undefined) && props.onClicked();
+			(props.onDialogOpened != undefined) && props.onDialogOpened();
 		});
 	}
 	const onClose = () => setOpen(false);
 	return (
 		<Grommet>
-			{React.cloneElement(props.children, { onClick: onOpen })}
+			<div onClick={onOpen}>
+				{props.children}
+			</div>
 			{open && (
 				<Layer
 					full={false}
