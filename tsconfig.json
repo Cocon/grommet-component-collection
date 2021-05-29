@@ -4,7 +4,6 @@
         "baseUrl": "./",
         "declaration": true,
         "esModuleInterop": true,
-        "isolatedModules": true,
         "jsx": "react",
         "lib": ["ES5", "ES6", "DOM"],
         "outDir": "./dist",
