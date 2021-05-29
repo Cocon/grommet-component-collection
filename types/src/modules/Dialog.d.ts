@@ -1,5 +1,5 @@
 import React from "react";
-interface DialogProps {
+export interface DialogProps {
     content: React.ReactElement;
     children: React.ReactChild;
     onDialogOpened?: Function;

@@ -9,7 +9,7 @@ import {
 } from "grommet-icons";
 
 
-interface DialogProps {
+export interface DialogProps {
 	content: React.ReactElement,
 	children: React.ReactChild,
 	onDialogOpened?: Function
