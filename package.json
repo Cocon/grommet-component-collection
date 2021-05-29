@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Cocon/grommet-component-collection#readme",
   "devDependencies": {
     "@types/react": "^17.0.6",
+    "@types/styled-components": "^5.1.9",
     "@types/webpack": "^5.28.0",
     "ts-loader": "^9.2.1",
     "ts-node": "^9.1.1",
