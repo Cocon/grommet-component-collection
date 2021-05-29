@@ -1,6 +1,6 @@
 {
   "name": "grommet-component-collection",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Custom grommet modules for React.js",
   "main": "dist/index.js",
   "types": "types/src/index.d.ts",
