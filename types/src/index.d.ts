@@ -1,2 +1,1 @@
-import Dialog from "./modules/Dialog";
-export { Dialog };
+export * from "./modules/Dialog";
