@@ -8,6 +8,7 @@
         "isolatedModules": true,
         "jsx": "react",
         "lib": ["ES5", "ES6", "DOM"],
+        "outDir": "./dist",
         "sourceMap": true,
         "strict": true,
         "target": "es5",
